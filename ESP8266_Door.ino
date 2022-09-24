@@ -42,17 +42,19 @@ void loop() {
      setupWifi();
    }
   // put your main code here, to run repeatedly:
-    if ((digitalRead(REED_SWITCH) == HIGH) && (doorClosed == 1))
+    while (digitalRead(REED_SWITCH) == HIGH)
     {
+    if ((digitalRead(REED_SWITCH) == HIGH) && (doorClosed == 1))
+     {
       Serial.println("DOOR OPEN!!");
       while (get_http(String("DOOR_OPEN_")) != 0);      
       doorClosed = 0;
-    } 
-    else
-    {
+     } 
+    else 
+   {
       Serial.println("DOOR CLOSED!!");
-      while (get_http(String("DOOR_CLOSED_")) != 0);      
-      doorClosed = 1;
+  
+    }
     }
     delay(10);
 
@@ -66,7 +68,7 @@ int get_http(String state)
    int ret = 0;
    Serial.print("[HTTP] begin...\n");
    // configure ifttt server and url  should be HTTP only..not https!!!  (http://)   
-    http.begin("https://maker.ifttt.com/trigger/door/json/with/key/nPrebETdvgpBst1hxsQi5SHIHG_mdyE83k8xUp4tl79"); //HTTP
+    http.begin("http://maker.ifttt.com/trigger/door/json/with/key/nPrebETdvgpBst1hxsQi5SHIHG_mdyE83k8xUp4tl79"); //HTTP
    //If you have enabled value1 from iftt settings then uncomment below line to send value and comment out above line  
    //http.begin("http://maker.ifttt.com/trigger/door/with/key/your_key_from_Iftt/?value1="+state); //HTTP
 

@@ -14,5 +14,4 @@ r
 23r
 23
 
-
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://static.javatpoint.com/tutorial/arduino/images/arduino-uno2.png" width="200" height="400" />
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://5.imimg.com/data5/YN/CM/MY-9380557/arduino-uno-ch340-500x500.jpg" width="200" height="400" />

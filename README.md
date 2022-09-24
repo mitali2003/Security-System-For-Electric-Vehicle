@@ -1,36 +1,77 @@
 [![Project.jpg](https://i.postimg.cc/jj1tzMh9/Project.jpg)](https://postimg.cc/7CSF4MdM)
 
-SUBMITTED BY: TEAM PINAKA
-TOPIC:SECURITY SYSTEM FOR ELECTRIC VEHICLES.
-TEAM MEMBERS:
-GOSWAMI KAUSHIK 
-GOHEL MITALI 
-RAJPUT ZEAL
-MOD KEVAL
 
+
+
+
+<br/> SUBMITTED BY: TEAM PINAKA
+<br/>
+<br/>TOPIC:SECURITY SYSTEM FOR ELECTRIC VEHICLES.
+<br/>
+<br/>
+<br/>TEAM MEMBERS:
+<br/>GOSWAMI KAUSHIK 
+<br/>GOHEL MITALI 
+<br/>RAJPUT ZEAL
+<br/>MOD KEVAL
+<br/>
 
 DESCRIPTION:
+<br/>
 WE HAVE CREATED SECURITY SYSTEM BASED ON FINGERPRINT BIOTECHNIQUE AUTHENTICATION.
-HARDWARE:
-ARDUINO UNO 
+<br/>
+<br/>
 
+HARDWARE:
+<br/>
+ARDUINO UNO 
 ESP8266
 SOLENOID LOCK
 MC-38
 FINGERPRINT SENSOR
+<br/>
+<br/>
+<br/>
+PREPARE THE CONTENT 
+ README FILES ARE MADE FOR THE DEVLOPERS BUT USER CAL ALSO USE IT. SO WE
+ MENTION THE CONTENT OF OUR PROJECT.
+ 1. WHAT IS ABOUT ?<br/>
+     OUR PROJECT IS RELATED TO SECURITY SYSTEM FOR VEHICLES SO WE USE THE FINGERPRINT BIOTECHNIQUE AUTHENTICATION.
+     WE MENTION TWO STAGES  OF SECURITY :<br/>
+        1) FINGERPRINT AUTHENTICATION <br/>
+        2) 2) SEND MESSAGES <br/>
+      IF USER PASSES BOTH THE STAGES THEN AND ONLY THEN HE/SHE WILL ABLE TO ACCESS VEHICLES .
+      <br/>
+      <br/>
+ 2. WHAT STEPS NEED TO BE TAKEN ? <br/>
+    -DO THEY NEED TO INSTALL ANY SOFTWARE ?<br/>
+    -IS THERE ANY HARDWARE REQUIREMENT?<br/>
+    -AFTER THE INSTALLATION HOW THEY RUN AND COMPILE THE CODE ?<br/>
+ 3. EXECUTION EXAMPLES <br/>
+    - YOU COULD PROVIDE EXAMPLES AND CODE . <br/>
+   
+   
+   INSTALLATION <br/>
+    -YOU CAN INSTALL LIBRARY THROUGHT THE ARDUINO LIBRARY MANAGER .<br/>
+    - NEVIGATE TO THE MANAGE LIBRARIES OPTION IN THE SKETCH->INCLUDE LIBRARY MENU.<br/>
+    -ENTER THE ADAFRUIT IO ARDUINO INTO THE SEARCH BOX , AND CLICK ISTALL ON THE 
+    -ADAFRUIT ARDUINO LIBRARY OPTION TO INSTALL VERSION .<br/>
+    -ENTER THE ArduinoHttpClient INTO THE SEARCH BOX , AND CLICKINSTALL ON THE ArduinoHttpClient
+     library option to install version. <br/>
+   
+   
+   WORKING <br/>
+   - WE CAN ADD ADAFRUIT LIBRARY FOR THE ENROLLING FINGERPRINT.<br/>
+   - IT CAN CHECK THE FINGERPRINT IF IT IS CORRECT THEN DO FURTHER WORK OTHERWISE NOTHING TO DO .<br/>
+   - AFTERTHAT IF IT IS CORRECT THEN IT CAN ABLE TO OPEN THE DOOR.<br/>
+   - IF ANYONE OTHER ARE ACCESS THE DOOR THEN IT SHOW MESSAGE THAT"DOOR HAS BEEN OPEN" OTHERWISE NOTHING TO DO.<br/>
+   - IF IT IS RIGHT THEN WE ARE ABLE TO ACEES THE VEHICLES . <br/>
+   
+   
+      
+ 
 
 
-PROGRAMMING:
 
-First of all , we have enroll the fingerprint in the database with their unique id .
-when we try to open a door at that time it check a fingerprint and if it is "TRUE" then no message will display and if it is wrong then nothing will happen 
-we use the "adafruit " library for that .
-after the sucessfully fatched the fingerprint it will
 
-What is about?
-             Describe the content of your project or repository
-Explain things the users would have a hard time understanding right away
-What steps need to be taken?
-Do they need to install any software?
-Is there any hardware requirements or dependencies?
-After the installatio
+

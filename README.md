@@ -1,1 +1,1 @@
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+![alt text](https://cdn.sparkfun.com/assets/9/1/e/4/8/515b4656ce395f8a38000000.png)
